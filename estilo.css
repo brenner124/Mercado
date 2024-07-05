@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    }
+    
+    header {
+    display: flex;
+    background-color: orangered;
+    padding: 3vw;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    
+    header img {
+    width: 15%;
+    }
+    
+    h1 {
+    color: white;
+    }
+    
+    .list ul {
+    display: flex;
+    gap: 2vw;
+    }
+    
+    .list a{
+    font-size: 12px;
+    color: white;
+    }
+    
+    .cadastro {
+    padding: 1vw;
+    border: 0;
+    background-color: white;
+    border-radius: 20px;
+    }
+    
+    .cadastro a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+    color: black;
+    }
+    
+    #cliente {
+    padding: 5% 0%;
+    background-image: url(/imagens/recomedação\ bg.jpg);
+    }
+    
+    .comenta {
+    background-color: rgba(255, 255, 255, 0.776);
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    
+    .comenta div {
+        width: 20vw;
+    }
+    
+    .comenta div h2{
+       text-align: center;
+    }
+    
+    .comenta div hr{
+        width: 5vw;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #produtos {
+    padding: 2%;;
+    display: flex;
+    align-items: center;
+    }
+    
+    #produtos div {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    }
+    
+    #produtos div img {
+    width: 100%;
+    }
